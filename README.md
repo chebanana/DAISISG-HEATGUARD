@@ -1,10 +1,15 @@
 # DAISISG-HEATGUARD
 
 In the section under "Additional info", we have placed our mock prototype under "Upload a File". This is our draft using Claude showcasing our vision as to how HeatGuard is to be built. We created a roadmap as to how the prototype works.
+
 Get Data Sources: The NEA real-time air temperature and rainfall (plus WBGT), HDB elderly population, MSF Senior Activity/Activity Ageing Centre locations, and URA subzone boundaries, are all from data.gov.sg 
+
 Ingestion: A scheduled Databricks Job polls the real-time APIs every 10-15 minutes and the stored data is saved into the Delta tables. The Static Datasets are loaded once 
-Clean and combine data: The Bronze to Silver to Gold pipeline runs in Databricks. Bronze is the messy raw data that is saved exactly as it was received. Silver would be when the Data is cleaned up, with bad reading removed and each weather station matched to the neighbourhood
+
+Clean and combine data: The Bronze to Silver to Gold pipeline runs in Databricks. Bronze is the messy raw data that is saved exactly as it was received. Silver would be when the Data is cleaned up, with bad reading removed and each weather station matched to the neighbourhood.
+
 Scoring and AI: Gold computes the Head Hazard, Vulnerability and Access Deficit scores and the overall HeatGuard Priority Score. The MLflow tracks the weighting sensitivity tests, and the LLM (via Foundation Model APIs) writes plain English explanations of each area’s score. For each of the neighbourhood, HeatGuard asks 3 questions: How hot it is? How many elderly residents live in that area? And how far is the nearest senior centre? It combines all the answers into one priority score. 
+
 Dashboard and alerts:  The AI/BI dashboard shows the priority map and rankings, a Genie space also answers natural-language questions, and SQL alerts to notify the users when an area turns into High priority. A map with neighbourhoods coloured green, amber or red. Including a list of which areas need help first. If an area turns red, an alert would be sent out.
 
 In one sentence, Heatguard collects government data automatically, cleans it, scores every neighbourhood, and shows the results on a map so that people would know where to find help first.
@@ -15,6 +20,7 @@ You can start by downloading the heatguard.html file and double click it. It wou
 How to read what you see?
  
 You would see a score that is /100. The higher the score the more attention is needed to the area. 
+
 As for the colours, deep red indicates High, Orange is Medium, pale peach is Low.
  
 The ~ symbol or a dashed ring indicates that the area has no weather station of its own so the temperature is gauged from the other nearby weather stations. The site would always tell you when the number is an estimate.  
