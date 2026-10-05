@@ -16,7 +16,7 @@ In the section under "Additional info", we have placed our mock prototype under 
 
 In one sentence, Heatguard collects government data automatically, cleans it, scores every neighbourhood, and shows the results on a map so that people would know where to find help first.
 
-**------------TUTORIAL------------**
+**-------------------------------------------------------------------------TUTORIAL------------------------------------------------------------------------**
 
 You can start by downloading the heatguard.html file and double click it. It would open in your web browser in a tab as per normal. There won’t be anything to install or log into. The website is made preferably for a laptop or desktop screen, but it can also be used on a phone.
 
@@ -53,7 +53,7 @@ Add a cooling point in Choa Chu Kang. It drops from High to Medium.
 Methodology explains the formula as to why heat counts the most, what the site deliberately leaves out, and its limitations. It’s useful if a judge asks how we would know if it is fair. 
 About covers the problem and the team.
 
-Datasets used in mock prototype: 
+**------------------------------------------------------------------------DATASETS------------------------------------------------------------------------**
 HDB Elderly Population:
  https://data.gov.sg/datasets/d_4180067b350bc9839a4cea487841d5d1/view
 PM2.5 Air Pollutant:
