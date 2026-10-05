@@ -4,7 +4,7 @@ In the section under "Additional info", we have placed our mock prototype under 
 
 If hmtl file is not found, you can access it HeatGuard through this link: https://daisisg-heatguard.tiiny.site/
 
-**-------------------------------------------------------------------------ROADMAP------------------------------------------------------------------------**
+**-------------------------------------------------------------------------ROADMAP---------------------------------------------**
 
 **Get Data Sources:** The NEA real-time air temperature and rainfall (plus WBGT), HDB elderly population, MSF Senior Activity/Activity Ageing Centre locations, and URA subzone boundaries, are all from data.gov.sg 
 
