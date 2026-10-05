@@ -14,7 +14,8 @@ In the section under "Additional info", we have placed our mock prototype under 
 
 In one sentence, Heatguard collects government data automatically, cleans it, scores every neighbourhood, and shows the results on a map so that people would know where to find help first.
 
-**TUTORIAL**
+**------------TUTORIAL-----------**
+
 You can start by downloading the heatguard.html file and double click it. It would open in your web browser in a tab as per normal. There won’t be anything to install or log into. The website is made preferably for a laptop or desktop screen, but it can also be used on a phone.
 
 How to read what you see?
