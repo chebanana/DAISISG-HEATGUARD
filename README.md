@@ -2,6 +2,8 @@
 
 In the section under "Additional info", we have placed our mock prototype under "Upload a File". This is our draft using Claude showcasing our vision as to how HeatGuard is to be built. We created a roadmap as to how the prototype works.
 
+**------------ROADMAP------------**
+
 **Get Data Sources:** The NEA real-time air temperature and rainfall (plus WBGT), HDB elderly population, MSF Senior Activity/Activity Ageing Centre locations, and URA subzone boundaries, are all from data.gov.sg 
 
 **Ingestion:** A scheduled Databricks Job polls the real-time APIs every 10-15 minutes and the stored data is saved into the Delta tables. The Static Datasets are loaded once 
@@ -14,7 +16,7 @@ In the section under "Additional info", we have placed our mock prototype under 
 
 In one sentence, Heatguard collects government data automatically, cleans it, scores every neighbourhood, and shows the results on a map so that people would know where to find help first.
 
-**------------TUTORIAL-----------**
+**------------TUTORIAL------------**
 
 You can start by downloading the heatguard.html file and double click it. It would open in your web browser in a tab as per normal. There won’t be anything to install or log into. The website is made preferably for a laptop or desktop screen, but it can also be used on a phone.
 
