@@ -37,7 +37,9 @@ Starting on the Overview page (the landing page). Reading the big question, look
 Click “Run heat analysis” on the left you set up a scenario: 
 
 Temperature slider, or the quick buttons which include Mild day, Typical, Hot or Heatwave.
-Showers toggle lets you simulate that it is raining in the east. 
+
+Showers toggle lets you simulate that it is raining in the east.
+
 Region would focus on one part of Singapore 
 Weight preset would decide on how much each factor counts but leave it on the Baseline for now. 
 Press Analyse. The site would work through the five steps with tickers and a progress bar. Click the “Show reasoning” on any of the steps to see exactly what it did. When it finishes, it would take you to the results page.
@@ -50,8 +52,9 @@ Try the three “aha” moments. There is a quick control bar at the top of the 
 Drag the temperature down to about 30°C. No area turns red and the map turns cooler. On a mild day nothing would be indicated as High, even in the areas with many seniors.
 Switch between 50/35/25, 60/30/10 and 40/40/20. The list reorders a little, but the same areas stay near the top. Hence, the ranking doesn’t depend on one arbitrary choice. 
 Add a cooling point in Choa Chu Kang. It drops from High to Medium.
-Methodology explains the formula as to why heat counts the most, what the site deliberately leaves out, and its limitations. It’s useful if a judge asks how we would know if it is fair. 
-About covers the problem and the team.
+
+**Methodology** explains the formula as to why heat counts the most, what the site deliberately leaves out, and its limitations. It’s useful if a judge asks how we would know if it is fair. 
+ **About** covers the problem and the team.
 
 **------------------------------------------------------------------------DATASETS------------------------------------------------------------------------**
 HDB Elderly Population:
@@ -66,14 +69,13 @@ Realtime Weather Readings collection (groups the 5 below):
 Air Temperature across Singapore:
  https://data.gov.sg/datasets/d_66b77726bbae1b33f218db60ff5861f0/view
 Rainfall across Singapore:
-
  https://data.gov.sg/datasets/d_6580738cdd7db79374ed3152159fbd69/view
+ 
 Relative Humidity across Singapore:
-
  https://data.gov.sg/datasets/d_2d3b0c4da128a9a59efca806441e1429/view
+ 
 Wind Speed across Singapore:
-
  https://data.gov.sg/datasets/d_7677738484067741bf3b56ab5d69c7e9/view
+ 
 Wind Direction across Singapore:
-
  https://data.gov.sg/datasets/d_534cf203023b51f51f879145ccc56ff9/view
