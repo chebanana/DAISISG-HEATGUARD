@@ -2,6 +2,8 @@
 
 In the section under "Additional info", we have placed our mock prototype under "Upload a File". This is our draft using Claude showcasing our vision as to how HeatGuard is to be built. We created a roadmap as to how the prototype works.
 
+If hmtl file is not found, you can access it HeatGuard through this link: https://daisisg-heatguard.tiiny.site/
+
 **-------------------------------------------------------------------------ROADMAP------------------------------------------------------------------------**
 
 **Get Data Sources:** The NEA real-time air temperature and rainfall (plus WBGT), HDB elderly population, MSF Senior Activity/Activity Ageing Centre locations, and URA subzone boundaries, are all from data.gov.sg 
