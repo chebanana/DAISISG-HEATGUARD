@@ -18,7 +18,7 @@ In one sentence, Heatguard collects government data automatically, cleans it, sc
 
 **-------------------------------------------------------------------------TUTORIAL------------------------------------------------------------------------**
 
-You can start by downloading the heatguard.html file and double click it. It would open in your web browser in a tab as per normal. There won’t be anything to install or log into. The website is made preferably for a laptop or desktop screen, but it can also be used on a phone.
+You can start by downloading the _heatguard.html_ file and double click it. It would open in your web browser in a tab as per normal. There won’t be anything to install or log into. The website is made preferably for a laptop or desktop screen, but it can also be used on a phone.
 
 How to read what you see?
  
@@ -30,7 +30,7 @@ The ~ symbol or a dashed ring indicates that the area has no weather station of 
 
 The badge at the top-right corner (e.g “Heat: High 33.6°C") shows how hot it is overall as of the time you check. 
 
-A first visit:
+**A first visit:**
 
 Starting on the Overview page (the landing page). Reading the big question, look at the “Top priorities right now” card on the right. It would show the three areas that need attention first.  Below it, there would be four number cards that summarized the situation. Click any “Learn more” link to see how each of the three factors are measured. 
 
