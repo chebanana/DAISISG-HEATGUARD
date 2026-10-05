@@ -40,21 +40,30 @@ Temperature slider, or the quick buttons which include Mild day, Typical, Hot or
 
 Showers toggle lets you simulate that it is raining in the east.
 
-Region would focus on one part of Singapore 
+Region would focus on one part of Singapore
 Weight preset would decide on how much each factor counts but leave it on the Baseline for now. 
+
 Press Analyse. The site would work through the five steps with tickers and a progress bar. Click the “Show reasoning” on any of the steps to see exactly what it did. When it finishes, it would take you to the results page.
 On Priority Areas (the main results page), the left side shows a map and the right side would show a ranked list.
+
 On the map: Each of the circles indicate an area, the bigger the circle means that there are more seniors who live there. Hovering over the circle would provide you with a quick summary but clicking it would give you a full detailed report. 
+
 In the list: click a row to see the short and summarised reason. You’re able to use the search box to find an area, click the column titles to sort and turn on “Show all areas” to see all the 25 instead of just the top 10. 
-Click any area in order to open its detail panel. A panel slides in from the right showing how the score was built piece by piece, the nearest Senior Activity Centres, and suggested actions, such as “Welfare-check outreach to seniors” or “Set up a cooling point” 
+
+Click any area in order to open its detail panel. A panel slides in from the right showing how the score was built piece by piece, the nearest Senior Activity Centres, and suggested actions, such as “Welfare-check outreach to seniors” or “Set up a cooling point”.
+
 Try the switch “What if we add a cooling point here?” The score would drop immediately and the map and list updates with it. Close the panel with the X, the Esc key, or by clicking outside it.
+
 Try the three “aha” moments. There is a quick control bar at the top of the results page for this. 
+
 Drag the temperature down to about 30°C. No area turns red and the map turns cooler. On a mild day nothing would be indicated as High, even in the areas with many seniors.
+
 Switch between 50/35/25, 60/30/10 and 40/40/20. The list reorders a little, but the same areas stay near the top. Hence, the ranking doesn’t depend on one arbitrary choice. 
 Add a cooling point in Choa Chu Kang. It drops from High to Medium.
 
 **Methodology** explains the formula as to why heat counts the most, what the site deliberately leaves out, and its limitations. It’s useful if a judge asks how we would know if it is fair. 
- **About** covers the problem and the team.
+
+**About** covers the problem and the team.
 
 **------------------------------------------------------------------------DATASETS------------------------------------------------------------------------**
 HDB Elderly Population:
