@@ -58,18 +58,22 @@ HDB Elderly Population:
  https://data.gov.sg/datasets/d_4180067b350bc9839a4cea487841d5d1/view
  
 PM2.5 Air Pollutant:
-
  https://data.gov.sg/datasets/d_397fe8de643aea9927bdee32e49307ff/view
  
 Realtime Weather Readings collection (groups the 5 below):
  https://data.gov.sg/collections/1459/view
+ 
 Air Temperature across Singapore:
  https://data.gov.sg/datasets/d_66b77726bbae1b33f218db60ff5861f0/view
 Rainfall across Singapore:
+
  https://data.gov.sg/datasets/d_6580738cdd7db79374ed3152159fbd69/view
 Relative Humidity across Singapore:
+
  https://data.gov.sg/datasets/d_2d3b0c4da128a9a59efca806441e1429/view
 Wind Speed across Singapore:
+
  https://data.gov.sg/datasets/d_7677738484067741bf3b56ab5d69c7e9/view
 Wind Direction across Singapore:
+
  https://data.gov.sg/datasets/d_534cf203023b51f51f879145ccc56ff9/view
