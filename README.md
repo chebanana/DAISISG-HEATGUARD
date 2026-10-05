@@ -4,7 +4,7 @@ In the section under "Additional info", we have placed our mock prototype under 
 
 If hmtl file is not found, you can access it HeatGuard through this link: https://daisisg-heatguard.tiiny.site/
 
-**-------------------------------------------------------------------------ROADMAP---------------------------------------------**
+**---------------------------------------------ROADMAP---------------------------------------------**
 
 **Get Data Sources:** The NEA real-time air temperature and rainfall (plus WBGT), HDB elderly population, MSF Senior Activity/Activity Ageing Centre locations, and URA subzone boundaries, are all from data.gov.sg 
 
@@ -18,7 +18,7 @@ If hmtl file is not found, you can access it HeatGuard through this link: https:
 
 In one sentence, Heatguard collects government data automatically, cleans it, scores every neighbourhood, and shows the results on a map so that people would know where to find help first.
 
-**-------------------------------------------------------------------------TUTORIAL------------------------------------------------------------------------**
+**---------------------------------------------TUTORIAL---------------------------------------------**
 
 You can start by downloading the _heatguard.html_ file and double click it. It would open in your web browser in a tab as per normal. There won’t be anything to install or log into. The website is made preferably for a laptop or desktop screen, but it can also be used on a phone.
 
@@ -67,7 +67,7 @@ Add a cooling point in Choa Chu Kang. It drops from High to Medium.
 
 **About** covers the problem and the team.
 
-**------------------------------------------------------------------------DATASETS------------------------------------------------------------------------**
+**---------------------------------------------DATASETS---------------------------------------------**
 HDB Elderly Population:
  https://data.gov.sg/datasets/d_4180067b350bc9839a4cea487841d5d1/view
  
