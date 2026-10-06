@@ -20,7 +20,7 @@ In one sentence, Heatguard collects government data automatically, cleans it, sc
 
 **---------------------------------------------TUTORIAL---------------------------------------------**
 
-You can start by downloading the _heatguard.html_ file and double click it. It would open in your web browser in a tab as per normal. There won’t be anything to install or log into. The website is made preferably for a laptop or desktop screen, but it can also be used on a phone.
+You can start by accessing the _heatguard_package_(1).zip_ file and download the _heatguard.html_ file. It would open in your web browser in a tab as per normal. There won’t be anything to install or log into. The website is made preferably for a laptop or desktop screen, but it can also be used on a phone.
 
 How to read what you see?
  
