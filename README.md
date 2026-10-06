@@ -1,6 +1,8 @@
 # DAISISG-HEATGUARD
 
-In the section under "Additional info", we have placed our mock prototype under "Upload a File". This is our draft using Claude showcasing our vision as to how HeatGuard is to be built. We created a roadmap as to how the prototype works.
+HeatGuard helps decision-makers identify which areas in Singapore may need heat intervention first by combining Heat Exposure, Vulnerability and Support Access Deficit into a single Priority Score.
+
+In the section under "Additional info", we have placed our mock prototype under "Upload a File". This is our draft using Claude showcasing our vision as to how HeatGuard is to be built. We created a roadmap as to how the prototype works. The current HeatGuard prototype is an interactive HTML proof of concept demonstrating the scoring and decision-making workflow. A full implementation would use Databricks for automated data ingestion, processing, monitoring, sensitivity testing and alerts.
 
 If hmtl file is not found, you can access it HeatGuard through this link: https://daisisg-heatguard.tiiny.site/
 
@@ -80,7 +82,7 @@ Add a cooling point in Choa Chu Kang. It drops from High to Medium.
 
 **---------------------------------------------something---------------------------------------------**
 
-Why are weights not 33/33/33? We did not use equal weights because the three factors do to play equal roles. Heat exposure represents the underlying hazard, while Vulnerability and Support Access Deficit affect how severely that hazard may impact a community
+Why are the weights 50/35/15 and not 33/33/33? Heat exposure is weighted at 50% because heat is the primary trigger of risk. Vulnerability receives 35% because the same heat can have more serious consequences for vulnerable populations. Support Access Deficit receives 15% because limited access to nearby support can increase the urgency of intervention. We did not use a 33/33/33 weightage because the three factors do to play equal roles. Heat exposure represents the underlying hazard, while Vulnerability and Support Access Deficit affect how severely that hazard may impact a community.
 
 **---------------------------------------------DATASETS---------------------------------------------**
 
