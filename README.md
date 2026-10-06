@@ -63,9 +63,13 @@ Drag the temperature down to about 30°C. No area turns red and the map turns co
 Switch between 50/35/15, 60/30/10 and 40/40/20. The list reorders a little, but the same areas stay near the top. Hence, the ranking doesn’t depend on one arbitrary choice. 
 
 For an area with Heat exposure = 80, Vulnerability = 70 and Support Access Deficit = 60:
+
 80 x 0.50 = 40
+
 70 x 0.35 = 24.5
+
 60 x 0.15 = 9
+
 Priority score = 73.5/100
 
 Add a cooling point in Choa Chu Kang. It drops from High to Medium.
