@@ -1,24 +1,28 @@
 # DAISISG-HEATGUARD
 
+**---------------------------------------------IMPORTANT INFORMATION---------------------------------------------**
+
 HeatGuard helps decision-makers identify which areas in Singapore may need heat intervention first by combining Heat Exposure, Vulnerability and Support Access Deficit into a single Priority Score.
 
 In the section under "Additional info", we have placed our mock prototype under "Upload a File". This is our draft using Claude showcasing our vision as to how HeatGuard is to be built. We created a roadmap as to how the prototype works. The current HeatGuard prototype is an interactive HTML proof of concept demonstrating the scoring and decision-making workflow. A full implementation would use Databricks for automated data ingestion, processing, monitoring, sensitivity testing and alerts.
 
-If hmtl file is not found, you can access it HeatGuard through this link: https://daisisg-heatguard.tiiny.site/
+For the prototype, HeatGuard uses the available demographic datasets as a proof-of-concept input. A production deployment would ue the latest available demographic data.
+
+If HTML file is not found, you can access it HeatGuard through this link: https://daisisg-heatguard.tiiny.site/
 
 **---------------------------------------------ROADMAP---------------------------------------------**
 
-**Get Data Sources:** The NEA real-time air temperature and rainfall (plus WBGT), HDB elderly population, MSF Senior Activity/Activity Ageing Centre locations, and URA subzone boundaries, are all from data.gov.sg 
+**Get Data Sources:** The NEA real-time air temperature and rainfall (plus WBGT), HDB elderly population, MSF Senior Activity/Active Ageing Centre locations, and URA subzone boundaries, are all from data.gov.sg 
 
 **Ingestion:** A scheduled Databricks Job polls the real-time APIs every 10-15 minutes and the stored data is saved into the Delta tables. The Static Datasets are loaded once 
 
 **Clean and combine data:** The Bronze to Silver to Gold pipeline runs in Databricks. Bronze is the messy raw data that is saved exactly as it was received. Silver would be when the Data is cleaned up, with bad reading removed and each weather station matched to the neighbourhood.
 
-**Scoring and AI:** Gold computes the Head Hazard, Vulnerability and Access Deficit scores and the overall HeatGuard Priority Score. The MLflow tracks the weighting sensitivity tests, and the LLM (via Foundation Model APIs) writes plain English explanations of each area’s score. For each of the neighbourhood, HeatGuard asks 3 questions: How hot it is? How many elderly residents live in that area? And how far is the nearest senior centre? It combines all the answers into one priority score. 
+**Scoring and AI:** Gold computes the Head Exposure, Vulnerability and Access Deficit scores and the overall HeatGuard Priority Score. The MLflow tracks the weighting sensitivity tests, and the LLM (via Foundation Model APIs) writes plain English explanations of each area’s score. For each of the neighbourhood, HeatGuard asks 3 questions: How hot it is? How many elderly residents live in that area? And how far is the nearest senior centre? It combines all the answers into one priority score. 
 
 **Dashboard and alerts**  The AI/BI dashboard shows the priority map and rankings, a Genie space also answers natural-language questions, and SQL alerts to notify the users when an area turns into High priority. A map with neighbourhoods coloured green, amber or red. Including a list of which areas need help first. If an area turns red, an alert would be sent out.
 
-In one sentence, Heatguard collects government data automatically, cleans it, scores every neighbourhood, and shows the results on a map so that people would know where to find help first.
+In one sentence, HeatGuard collects government data automatically, cleans it, scores every neighbourhood, and shows the results on a map so that people would know where to find help first.
 
 **---------------------------------------------TUTORIAL---------------------------------------------**
 
@@ -80,9 +84,13 @@ Add a cooling point in Choa Chu Kang. It drops from High to Medium.
 
 **About** covers the problem and the team.
 
-**---------------------------------------------something---------------------------------------------**
+**---------------------------------------------QUESTIONS---------------------------------------------**
 
-Why are the weights 50/35/15 and not 33/33/33? Heat exposure is weighted at 50% because heat is the primary trigger of risk. Vulnerability receives 35% because the same heat can have more serious consequences for vulnerable populations. Support Access Deficit receives 15% because limited access to nearby support can increase the urgency of intervention. We did not use a 33/33/33 weightage because the three factors do to play equal roles. Heat exposure represents the underlying hazard, while Vulnerability and Support Access Deficit affect how severely that hazard may impact a community.
+There might be misconceptions as to what our prototype is, and this section is dedicated to answering any questions that people might have.
+
+**What makes you stand out from the other websites?** HeatGuard does more than show where it is hot. It isn't just a heat map, but it combines heat conditions, population vulnerability and access to support to produce a ranked view of where intervention may be needed most. 
+
+W**hy are the weights 50/35/15 and not 33/33/33?** Heat exposure is weighted at 50% because heat is the primary trigger of risk. Vulnerability receives 35% because the same heat can have more serious consequences for vulnerable populations. Support Access Deficit receives 15% because limited access to nearby support can increase the urgency of intervention. We did not use a 33/33/33 weightage because the three factors do to play equal roles. Heat exposure represents the underlying hazard, while Vulnerability and Support Access Deficit affect how severely that hazard may impact a community.
 
 **---------------------------------------------DATASETS---------------------------------------------**
 
