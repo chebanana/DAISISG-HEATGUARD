@@ -60,12 +60,23 @@ Try the three “aha” moments. There is a quick control bar at the top of the 
 
 Drag the temperature down to about 30°C. No area turns red and the map turns cooler. On a mild day nothing would be indicated as High, even in the areas with many seniors.
 
-Switch between 50/35/25, 60/30/10 and 40/40/20. The list reorders a little, but the same areas stay near the top. Hence, the ranking doesn’t depend on one arbitrary choice. 
+Switch between 50/35/15, 60/30/10 and 40/40/20. The list reorders a little, but the same areas stay near the top. Hence, the ranking doesn’t depend on one arbitrary choice. 
+
+For an area with Heat exposure = 80, Vulnerability = 70 and Support Access Deficit = 60:
+80 x 0.50 = 40
+70 x 0.35 = 24.5
+60 x 0.15 = 9
+Priority score = 73.5/100
+
 Add a cooling point in Choa Chu Kang. It drops from High to Medium.
 
 **Methodology** explains the formula as to why heat counts the most, what the site deliberately leaves out, and its limitations. It’s useful if a judge asks how we would know if it is fair. 
 
 **About** covers the problem and the team.
+
+**---------------------------------------------something---------------------------------------------**
+
+Why are weights not 33/33/33? We did not use equal weights because the three factors do to play equal roles. Heat exposure represents the underlying hazard, while Vulnerability and Support Access Deficit affect how severely that hazard may impact a community
 
 **---------------------------------------------DATASETS---------------------------------------------**
 
