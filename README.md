@@ -18,7 +18,7 @@ If HTML file is not found, you can access it HeatGuard through this link: https:
 
 **Clean and combine data:** The Bronze to Silver to Gold pipeline runs in Databricks. Bronze is the messy raw data that is saved exactly as it was received. Silver would be when the Data is cleaned up, with bad reading removed and each weather station matched to the neighbourhood.
 
-**Scoring and AI:** Gold computes the Head Exposure, Vulnerability and Access Deficit scores and the overall HeatGuard Priority Score. The MLflow tracks the weighting sensitivity tests, and the LLM (via Foundation Model APIs) writes plain English explanations of each area’s score. For each of the neighbourhood, HeatGuard asks 3 questions: How hot it is? How many elderly residents live in that area? And how far is the nearest senior centre? It combines all the answers into one priority score. 
+**Scoring and AI:** Gold computes the Head Exposure, Vulnerability and Support Access Deficit scores and the overall HeatGuard Priority Score. The MLflow tracks the weighting sensitivity tests, and the LLM (via Foundation Model APIs) writes plain English explanations of each area’s score. For each of the neighbourhood, HeatGuard asks 3 questions: How hot it is? How many elderly residents live in that area? And how far is the nearest senior centre? It combines all the answers into one priority score. 
 
 **Dashboard and alerts**  The AI/BI dashboard shows the priority map and rankings, a Genie space also answers natural-language questions, and SQL alerts to notify the users when an area turns into High priority. A map with neighbourhoods coloured green, amber or red. Including a list of which areas need help first. If an area turns red, an alert would be sent out.
 
@@ -90,7 +90,11 @@ There might be misconceptions as to what our prototype is, and this section is d
 
 **What makes you stand out from the other websites?** HeatGuard does more than show where it is hot. It isn't just a heat map, but it combines heat conditions, population vulnerability and access to support to produce a ranked view of where intervention may be needed most. 
 
-W**hy are the weights 50/35/15 and not 33/33/33?** Heat exposure is weighted at 50% because heat is the primary trigger of risk. Vulnerability receives 35% because the same heat can have more serious consequences for vulnerable populations. Support Access Deficit receives 15% because limited access to nearby support can increase the urgency of intervention. We did not use a 33/33/33 weightage because the three factors do to play equal roles. Heat exposure represents the underlying hazard, while Vulnerability and Support Access Deficit affect how severely that hazard may impact a community.
+**Why are the weights 50/35/15 and not 33/33/33?** Heat exposure is weighted at 50% because heat is the primary trigger of risk. Vulnerability receives 35% because the same heat can have more serious consequences for vulnerable populations. Support Access Deficit receives 15% because limited access to nearby support can increase the urgency of intervention. We did not use a 33/33/33 weightage because the three factors do to play equal roles. Heat exposure represents the underlying hazard, while Vulnerability and Support Access Deficit affect how severely that hazard may impact a community.
+
+**What is Support Access Deficit?** Support Access Deficit reflects how limited an area's access is to relevant support facilities. Area with poorer access receives a higher deficit score.
+
+**What is the main-heat exposure measure?** Heat Exposure is primarily measured using Wet-Bulb Globe Temperature (WBGT), which provides a more meaningful indication of heat stress than air temperature alone.
 
 **---------------------------------------------DATASETS---------------------------------------------**
 
